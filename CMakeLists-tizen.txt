@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.12)
+project(vk_layer_dali)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_library(VkLayer_dali SHARED library.cpp library.h)
+install( TARGETS VkLayer_dali DESTINATION /tmp )
