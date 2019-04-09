@@ -1,0 +1,11 @@
+{
+  "file_format_version" : "1.0.0",
+  "layer" : {
+    "name": "VK_LAYER_dali",
+    "type": "GLOBAL",
+    "library_path": "lib_vklayer_dali.so",
+    "api_version": "1.0.0",
+    "implementation_version": "1",
+    "description": "DALi Vulkan validation layer",
+  }
+}
